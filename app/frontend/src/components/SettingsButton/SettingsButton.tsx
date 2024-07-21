@@ -10,10 +10,11 @@ interface Props {
 
 export const SettingsButton = ({ className, onClick }: Props) => {
     return (
-        <div className={`${styles.container} ${className ?? ""}`}>
+        // Uncomment code below to access developer setings
+        {/* <div className={`${styles.container} ${className ?? ""}`}>
             <Button icon={<Settings24Regular />} onClick={onClick}>
                 {"Developer settings"}
             </Button>
-        </div>
+        </div> */}
     );
 };
